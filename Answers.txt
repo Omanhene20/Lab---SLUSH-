@@ -1,0 +1,21 @@
+Names of Contributors:
+Kwabena Adjei Omanhene Gyimah
+
+Known Bugs and Deviations from Specification:
+- No known bugs. The shell successfully runs commands and handles pipelines.
+- The 'cd' command works as expected.
+- The shell exits on EOF (^D).
+- Ctrl+C (^C) interrupts running commands but keeps the shell running.
+
+Extra Credit Attempted:
+- Implemented a custom shell prompt that displays the current working directory relative to the user's home directory.
+
+Optional Enrichment Exercises (5% Extra Credit):
+- The prompt now shows the directory path within the home directory.
+- Example:
+  slush|dir1/dir2>
+
+Submission:
+- `slush.c` (source code)
+- `Makefile`
+- `answers.txt`
